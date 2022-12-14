@@ -45,7 +45,9 @@ function randnum(){
         }
         else if(guess==num){
             hint = "Congrats! You are correct.";
-            counter++;
+            document.getElementById("genbutton").style.display = "none";
+            document.getElementById("numip").style.display = "none";
+            
         }
         else{
             hint = "Enter a number!";
@@ -64,5 +66,6 @@ function randnum(){
     else{
         document.getElementById("demo").innerHTML = `You lost! (More than 10 guesses)`;
         document.getElementById("genbutton").style.display = "none";
+        document.getElementById("numip").style.display = "none";
     }
 }
