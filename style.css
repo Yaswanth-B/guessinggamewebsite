@@ -1,0 +1,33 @@
+#program{
+    text-align: center;
+    vertical-align: center;
+}
+
+#demo{
+    width: 100%;
+    font-size: 2em;
+}
+
+h1{
+    width:100%;
+    font-size: 4em;
+
+}
+body{
+    background-color: powderblue;
+}
+
+#genbutton{
+    width:30%;
+    font-size: 4em;
+    border-radius:2em;
+    background-color:antiquewhite;
+    
+}   
+
+#numip{
+    width: 60%;
+    font-size: 3em;
+    border-radius:2em;
+    text-align: center;
+}
