@@ -1,33 +1,72 @@
-#program{
-    text-align: center;
-    vertical-align: center;
-}
-
-#demo{
-    width: 100%;
-    font-size: 2em;
-}
-
-h1{
-    width:100%;
-    font-size: 2em;
-
-}
-body{
-    background-color: powderblue;
-}
-
-#genbutton{
-    width:60%;
-    font-size: 2em;
-    border-radius:2em;
-    background-color:antiquewhite;
+@media only screen and (max-width: 1500px) {
+    #program{
+        text-align: center;
+        vertical-align: center;
+    }
     
-}   
+    #demo{
+        width: 100%;
+        font-size: 2em;
+    }
+    
+    h1{
+        width:100%;
+        font-size: 3em;
+    
+    }
+    body{
+        background-color: powderblue;
+    }
+    
+    #genbutton{
+        width:20%;
+        font-size: 3rem;
+        border-radius:2em;
+        background-color:antiquewhite;
+        
+    }   
+    
+    #numip{
+        width: 60%;
+        font-size: 2em;
+        border-radius:1em;
+        text-align: center;
+    }
+}
 
-#numip{
-    width: 75%;
-    font-size: 2em;
-    border-radius:1em;
-    text-align: center;
+
+@media only screen and (max-width: 600px) {
+    #program{
+        text-align: center;
+        vertical-align: center;
+    }
+    
+    #demo{
+        width: 100%;
+        font-size: 2em;
+    }
+    
+    h1{
+        width:100%;
+        font-size: 2em;
+    
+    }
+    body{
+        background-color: powderblue;
+    }
+    
+    #genbutton{
+        width:60%;
+        font-size: 2em;
+        border-radius:2em;
+        background-color:antiquewhite;
+        
+    }   
+    
+    #numip{
+        width: 75%;
+        font-size: 2em;
+        border-radius:1em;
+        text-align: center;
+    }
 }
