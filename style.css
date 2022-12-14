@@ -10,7 +10,7 @@
 
 h1{
     width:100%;
-    font-size: 4em;
+    font-size: 2em;
 
 }
 body{
@@ -26,8 +26,8 @@ body{
 }   
 
 #numip{
-    width: 60%;
-    font-size: 3em;
-    border-radius:2em;
+    width: 75%;
+    font-size: 2em;
+    border-radius:1em;
     text-align: center;
 }
